@@ -22,6 +22,17 @@ background: linear-gradient(to bottom,black, white)
 }
 
 
+.contenedormenu {
+    height: 5600px;
+}
+
+.principalmenu {
+    height: 5000;
+}
+
+
+
+
 .piedepagina {
 height: 300px;
 width: 100%;
@@ -102,8 +113,16 @@ li {
 li:hover:not(a.active){
     color: gray;
     text-shadow: 7px 7px 7px rgb(250, 0, 0);
+    
 }
 
+nav ul li a {
+    
+    color : white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
 
 /* TIPOGRAFIA */
 
@@ -112,11 +131,54 @@ li:hover:not(a.active){
     font-size: 30px;
 }
 
+
+h2 {
+text-align: center;
+color: blue;
+}
+
+
 h3 {
     text-align: center;
+    color: red;
 }
 
 
 
-/* FOOTER */
+/* MENU */
 
+
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    width: auto;
+}
+
+
+.entradas {
+height: auto;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-content: center;
+flex-wrap: wrap;
+
+}
+
+
+.ramen {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
