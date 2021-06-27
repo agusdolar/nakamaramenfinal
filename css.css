@@ -1,15 +1,19 @@
 /*INICIO DE CSS*/
 /*INDEX*/
 
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 .contenedor {
-height: 2470px;
+height: auto;
 width: 100%;
 display: grid;
 }
 
 
 .header {
-height: 630px;
+height: 660px;
 width: 100%;
 background-color: black;
 }
@@ -23,14 +27,29 @@ background: linear-gradient(to bottom,black, white)
 
 
 .contenedormenu {
-    height: 5600px;
+height: auto;
+width: 100%;
 }
 
 .principalmenu {
-    height: 5000;
+height: auto;
+width: 100%;
+background-color: black;
+padding-bottom: 2%;
+
 }
 
-
+.piedepaginamenu {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    background: linear-gradient(to bottom,white, black);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 
 .piedepagina {
@@ -108,6 +127,7 @@ li {
     color: white;
     font-size: 40px;
     text-shadow: 10px 10px 10px rgb(65, 2, 2);
+    font-family: 'Quicksand', sans-serif;
 }
 
 li:hover:not(a.active){
@@ -126,24 +146,49 @@ nav ul li a {
 
 /* TIPOGRAFIA */
 
+.ph1 {
+    color: rgba(44, 44, 44, 0.904);
+    text-shadow: 10px 10px 10px rgb(121, 119, 119);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
 .mb-0 {
     text-align: center;
     font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
 h2 {
-text-align: center;
-color: blue;
+text-align: left;
+color: rgb(240, 240, 243);
+text-shadow: 10px 10px 10px rgb(121, 119, 119);
+font-family: 'Quicksand', sans-serif;
 }
 
 
 h3 {
     text-align: center;
-    color: red;
+    color: white;
+    text-shadow: 7px 7px 7px rgb(187, 175, 175);
+    font-family: 'Quicksand', sans-serif;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eaeaf1;
 }
 
+h4 {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    
+}
 
+p {
+    font-family: 'Quicksand', sans-serif;
+}
 
 /* MENU */
 
@@ -157,6 +202,8 @@ h3 {
     align-content: center;
     height: auto;
     width: auto;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
 }
 
 
@@ -180,5 +227,156 @@ flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
+    
+}
+
+.otrosplatos {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.bebidas {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.postre {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.otrosplatos {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.extras {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+/* incio GALERIA */
+.contenedorgaleria {
+    background-color: black;
+}
+
+.imagengaleria {
+    border-image: 2px solid red;
+    border-radius: 24px;
+}
+
+
+.contenedorfotos {
+    height: 2000px;
+    width: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-row: 30% 30% 30% 30%;
+    grid-template-areas: "areaone areatwo"
+                          "areathree areafour"
+                          "areafive areasix"
+                          "areaseven areaeight";
+    column-gap: 5%;
+    row-gap: 5%;
+    padding-top: 5%;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.area1 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areaone";
+}
+
+.area2 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areatwo";
+}
+
+.area3 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areathree";
+}
+
+.area4 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areafour";
+}
+
+.area5 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areafive";
+}
+
+.area6 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areasix";
+}
+
+.area7 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areaseven";
+}
+
+.area8 {
+    height: 400px;
+    width: 450px;
+    grid-area: "areaeight";
+}
+
+.contenedorformulario {
+    background-color: cadetblue;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 2%;
+   
     
 }
