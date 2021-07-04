@@ -1,6 +1,10 @@
 /*INICIO DE CSS*/
 /*INDEX*/
 
+#logonakama {
+    align-items: center;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -19,7 +23,7 @@ background-color: black;
 }
 
 .principal {
-height: 1670px;
+height: 1000px;
 width: 100%;
 background-color: black;
 background: linear-gradient(to bottom,black, white)
@@ -78,7 +82,7 @@ align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: space-between;
+    align-items: center;
     
 }
 
@@ -115,11 +119,16 @@ align-items: center;
 
 ul {
     list-style-type: none;
+    height: 650%;
+    padding: 9%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    text-align: center;
     text-justify:distribute;
+    background-repeat: no-repeat;
+    background-image: url("/imagenes/banner.jpg");
+    justify-content: space-around;
+    align-items: center;
     
 }
 
@@ -128,13 +137,17 @@ li {
     font-size: 40px;
     text-shadow: 10px 10px 10px rgb(65, 2, 2);
     font-family: 'Quicksand', sans-serif;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
 }
 
-li:hover:not(a.active){
-    color: gray;
-    text-shadow: 7px 7px 7px rgb(250, 0, 0);
+li a:hover:not(.active) {
+    color: rgb(231, 61, 61);
     
 }
+
+
 
 nav ul li a {
     
@@ -146,6 +159,13 @@ nav ul li a {
 
 /* TIPOGRAFIA */
 
+#pindex {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200%;
+
+}
+
+
 .ph1 {
     color: rgba(44, 44, 44, 0.904);
     text-shadow: 10px 10px 10px rgb(121, 119, 119);
@@ -155,6 +175,8 @@ nav ul li a {
 }
 
 .mb-0 {
+    color: rgb(228, 225, 225);
+    text-shadow: 7px 7px 7px grey;
     text-align: center;
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
@@ -188,6 +210,8 @@ h4 {
 
 p {
     font-family: 'Quicksand', sans-serif;
+    
+
 }
 
 /* MENU */
@@ -379,4 +403,23 @@ flex-wrap: wrap;
     padding-top: 2%;
    
     
+}
+
+#mural {
+    align-content: center;
+    align-items: center;
+}
+
+.formulario {
+
+font-family: 'Quicksand', sans-serif;
+color: rgb(7, 0, 0);
+
+}
+
+.contacto {
+
+    color: red;
+    text-align: center;
+    font-size: 150%;
 }

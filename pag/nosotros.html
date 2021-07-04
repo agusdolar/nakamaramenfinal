@@ -23,54 +23,59 @@
     <div class="header">
 
 
-      <!--Inicio de Carrusel-->
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../imagenes/11A.jpg" class="d-block w-100" alt="..." height="500px" width="auto">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/2A.jpg" class="d-block w-100" alt="..." height="500px" width="auto">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/3A.jpg" class="d-block w-100" alt="..." height="500px" width="auto">
-          </div>
-        </div>
-      </div>
-      <!--Fin de Carrusel-->
-
       <!--Inicio de Nav-->
-      <div class="divnav">
-        <nav>
-          <ul>
-            <div class="inicio">
-              <li> <a href="../index.html">Inicio</a></li>
-            </div>
+      <nav>
+        <img src="/imagenes/logo.jpg" alt="logo de nakama" width="250" height="250">
 
-            <div class="menu">
-              <li> <a href="/pag/menu.html">Menu</a></li>
-            </div>
 
-            <div class="galeria">
-              <li><a href="/pag/galeria.html">Galeria</a></li>
-            </div>
+        <ul>
 
-            <div class="nosotros">
-              <li><a href="/pag/nosotros.html">Nosotros</a></li>
-            </div>
-          </ul>
-        </nav>
-      </div>
+
+
+
+          <li> <a href="/pag/menu.html" class="animate__animated animate__fadeInTopRight"> Menu </a> </li>
+          <li> <a href="/pag/galeria.html" class="animate__animated animate__fadeInTopRight"> Galeria </a> </li>
+          <li> <a href="/pag/nosotros.html" class="animate__animated animate__fadeInTopRight"> Quienes Somos </a> </li>
+          <li> <a href="/index.html" class="animate__animated animate__fadeInTopRight"> Home </a> </li>
+
+
+
+
+        </ul>
+
+      </nav>
 
       <!--Fin de Nav-->
+
+      <!--FIN DE ENCABEZADO-->
+
     </div>
-    <!--FIN DE ENCABEZADO-->
-
-
 
 
     <!--INICIO DE MAIN-->
-  
+    <div class="principal">
+
+
+      <div class="nuestro_contacto">
+        <h2 class="animate__animated animate__backInLeft">Nuestro contacto</h2>
+        <span>
+          <p class="mb-0">Whatsapp: </p>
+          <p class="contacto"> 351555555</p>
+        </span>
+        <span>
+          <p class="mb-0"> Email: </p>
+          <p class="contacto"> Nakamaramen@gmail.com</p>
+        </span>
+      </div>
+
+      <img id="mural" src="/imagenes/mural.jpg" alt="" width="98%" height="40%">
+
+      <p id="pindex"> "Somos un restaurante especializado en ramen japones. Blablaba. Lorem, ipsum dolor sit amet
+        consectetur
+        adipisicing elit. Recusandae, tempore hic? Dolorum eveniet aliquid voluptate, possimus reiciendis
+        provident tenetur dignissimos vel. Alias aliquam magni quasi minus eius laborum corporis molliti."</p>
+
+      <br>
 
 
 
@@ -79,8 +84,40 @@
 
 
 
+      <br>
 
 
+      <!--Inicio de Formulario-->
+      <h4>¡Dejanos tu opinion!</h4>
+
+      <form action="" class="formulario">
+        <fieldset>
+          <!--Agregar el Nombre-->
+          <legend class="formulario">Nombre Completo</legend><input type="text" placeholder="Nombre Completo">
+          <br>
+          <!--Agregar el email-->
+          <legend class="formulario">Email</legend><input type="text" placeholder="Email">
+          <br>
+          <!--Genero-->
+          <Legend class="formulario">Genero</Legend><select name="Genero">
+            <option value="">-</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </fieldset>
+
+        <textarea name="DejanosTuMensaje" id="DejanosTuMensaje" cols="100" rows="10"> </textarea>
+
+        <div>
+          <button type="reset" class="btn btn-dark">Resetear formulario</button>
+        </div>
+
+
+        <button type="button" class="btn btn-dark">Enviar</button>
+
+      </form>
+      </section>
 
 
 
@@ -89,14 +126,24 @@
 
 
     </div>
-    <!--Fin contenedor maximo:-->
+
+
+
+
+ 
+ 
+ 
+ 
   </div>
+  <!--Fin contenedor maximo:-->
 
+  
+  
 
-<!--Javascript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
+  <!--Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
 
 </body>
