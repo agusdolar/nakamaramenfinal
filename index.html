@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css.css">
+    <title>Nakama Ramen- Comida japonesa Cordoba</title>
+    <meta name="nakama ramen restaurante japones"
+        content="Restaurante en Cordoba de comida japonesa especializado en ramen">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Quicksand&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -27,7 +30,8 @@
             <!--Inicio de Nav-->
 
             <nav>
-                <img src="/imagenes/logo.jpg" alt="logo de nakama" width="250" height="250">
+                <img id="logonakama" src="/imagenes/logo.jpg" alt="logo de nakama" width="150" height="150"
+                    class="animate__animated animate__fadeIn">
 
 
                 <ul>
@@ -35,12 +39,14 @@
 
 
 
-                    <li> <a href="/pag/menu.html" class="animate__animated animate__fadeInTopRight"> Menu </a> </li>
-                    <li> <a href="/pag/galeria.html" class="animate__animated animate__fadeInTopRight"> Galeria </a>
-                    </li>
-                    <li> <a href="/pag/nosotros.html" class="animate__animated animate__fadeInTopRight"> Quienes Somos
-                        </a> </li>
-                    <li> <a href="index.html" class="animate__animated animate__fadeInTopRight"> Home </a> </li>
+                    <li class="animate__animated animate__fadeIn"> <a href="/pag/menu.html"
+                            class="animate__animated animate__fadeInTopRight"> Menu </a> </li>
+                    <li class="animate__animated animate__fadeIn"> <a href="/pag/galeria.html"
+                            class="animate__animated animate__fadeInTopRight"> Galeria </a></li>
+                    <li class="animate__animated animate__fadeIn"> <a href="/pag/nosotros.html"
+                            class="animate__animated animate__fadeInTopRight"> Quienes Somos</a> </li>
+                    <li class="animate__animated animate__fadeIn"> <a href="index.html"
+                            class="animate__animated animate__fadeInTopRight"> Home </a> </li>
 
 
 
@@ -58,30 +64,39 @@
 
         <!--Inicio de Main-->
         <div class="principal">
-            <H2>¿Alguna vez probaste Ramen?</H2>
+            <H2 class="titulo" class="animate__animated animate__backInLeft">¿Alguna vez probaste Ramen?</H2>
             <!--Inicio de Carrusel-->
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="imagenes/11A.jpg" class="d-block w-100" alt="..." height="500px" width="auto">
+                        <img class="imageness" src="imagenes/11A.jpg" class="d-block w-100" alt="..." height="500px"
+                            width="auto">
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/2A.jpg" class="d-block w-100" alt="..." height="500px" width="auto">
+                        <img class="imageness" src="imagenes/2A.jpg" class="d-block w-100" alt="..." height="500px"
+                            width="auto">
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/3A.jpg" class="d-block w-100" alt="..." height="500px" width="auto">
+                        <img class="imageness" src="imagenes/3A.jpg" class="d-block w-100" alt="..." height="500px"
+                            width="auto">
                     </div>
                 </div>
             </div>
             <!--Fin de Carrusel-->
             <br>
             <br>
+            <br>
 
-            <p id="pindex" class="animate__animated animate__fadeIn">"El Ramen es un plato muy popular en Japón que se extendió por todo el mundo, pero su origen es chino. Llego al país nipón a mediados del siglo XIX, se modificó y se extendió por todo el país generando diferentes estilos".
+            <p class="texto" class="animate__animated animate__zoomInUp">"El Ramen es un plato muy popular en Japón que
+                se
+                extendió por todo el mundo, pero su origen es chino. Llego al país nipón a mediados del siglo XIX, se
+                modificó y se extendió por todo el país generando diferentes estilos. <br>
+                El ramen conquistó Japon y ahora el mundo entero".
             </p>
 
 
-
+            <br>
+            <img src="/imagenes/logo wpp.png" alt="logowpp" id="whatsap" class="animate__animated animate__lightSpeedInRight">
 
         </div>
         <!--Fin de Main-->
@@ -89,31 +104,34 @@
 
 
         <!--Inicio de Pie de Pagina-->
-        <div class="piedepagina">
+        <footer>
+            <div class="piedepagina" class="animate__animated animate__backInDown">
 
-            <div class="contactopie">
-                <p class="h4">nakamaramen@gmail.com</p>
-                <p class="h4">+54 9 351 6852613</p>
-                <p class="h4">Duarte quiroz 399</p>
+                <div class="contactopie">
+                    <p class="ppie">nakamaramen@gmail.com</p>
+                    <p class="ppie">+54 9 351 6852613</p>
+                    <p class="ppie">Duarte quiroz 399</p>
+                </div>
+
+
+                <div class="medio">
+                    <p class="ppiedos">© 2021 Agustina Dolar. </p>
+                </div>
+
+
+                <div class="redes">
+                    <p class="ppie">Lunes a Sabados de 12 a 15 y 20 a 23.</p>
+                    <img class="imaglogopie" src="/imagenes/logo face.png" alt="logofacebook" width="60px"
+                        height="60px">
+                    <img class="imaglogopie" src="/imagenes/logo insta 2.png" alt="logoinstagram" width="60px"
+                        height="60px">
+                </div>
+
+
+
+
             </div>
-
-
-            <div>
-                <p class="h5">© 2021 Agustina Dolar. Todos los derechos reservados.</p>
-            </div>
-
-
-            <div class="redespie">
-                <p class="h4">Lunes a Sabados de 12 a 15 y 20 a 23.</p>
-                <img class="imaglogopie" src="/imagenes/logo face.png" alt="logofacebook" width="60px" height="60px">
-                <img class="imaglogopie" src="/imagenes/logo insta 2.png" alt="logoinstagram" width="60px"
-                    height="60px">
-            </div>
-
-
-
-
-        </div>
+        </footer>
         <!--Fin de Pie de Pagina-->
 
 

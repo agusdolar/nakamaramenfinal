@@ -5,12 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css.css">
+  <title>Nakama Ramen- Comida japonesa Cordoba</title>
+  <meta name="nakama ramen restaurante japones"
+    content="Restaurante en Cordoba de comida japonesa con amplia experiencia">
+  <link rel="stylesheet" href="../css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Quicksand&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -25,7 +28,7 @@
 
       <!--Inicio de Nav-->
       <nav>
-        <img src="/imagenes/logo.jpg" alt="logo de nakama" width="250" height="250">
+        <img src="/imagenes/logo.jpg" alt="logo de nakama" width="150" height="150">
 
 
         <ul>
@@ -54,28 +57,82 @@
 
     <!--INICIO DE MAIN-->
     <div class="principal">
+      <h2 class="titulo" class="animate__animated animate__backInLeft">Nosotros - 私たち</h2>
 
+      <div class="nosotros">
+      
+        
+            <img src="/imagenes/logo wpp.png" alt="logowpp" id="whatsap" class="animate__animated animate__lightSpeedInRight">
+
+        <div class="divuno">
+          <br>
+          <div class="divone">
+          <br>
+            <p class="texto" class="animate__animated animate__zoomInUp"> "Somos un restaurante especializado en ramen japones. Inspirado en la cocina oriental;
+              contamos
+              con autenticos platos y bebidas".</p>
+          </div>
+          
+            <img class="imagnos" src="../imagenes/nosotros1.jpg" alt="" height="80%" width="50%" >
+          
+        </div>
+         <br>
+         <br>
+        <div class="divdos">
+          <div class="divthree">
+            <p class="texto" class="animate__animated animate__zoomInUp"> Te invitamos a vivir una experiencia japonesa:</p>
+          </div>
+          <div class="divfour">
+            <img src="../imagenes/japon.png" alt="" height="70%" width="70%" style="margin: 5%;" >
+            
+          </div>
+        </div>
+
+        <div class="divtres">
+          <br>
+          <br>
+          <div>
+          <p class="texto" class="animate__animated animate__zoomInUp">"Cada lugar de Nakama tiene un significado especial. La pintura original es creación de
+            Utagawa Kuniyoshi del siglo XVIII. Pero esta versión es fruto del esfuerzo de nuestra familia que participó
+            en diferentes estadios de la obra. Asi cada rincon cobra mayor valor"</p>
+          </div>
+          <div>
+    
+          <img class="imagnos" src="../imagenes/pintando.jpg" alt="" height="50%" width="auto">
+          <img class="imagnos" src="../imagenes/pintando2.png" alt="" height="50%" width="auto">
+        </div>
+        </div>
+
+        <div class="divcuatro">
+          <br>
+          <div>
+            <br>
+          <p class="texto" class="animate__animated animate__zoomInUp">"Un amigo, compañero o camarada; una forma de decirle a una persona que lo quieres de una
+            manera no-romántica. Esto es lo que significa la palabra japonesa Nakama, un término idóneo y que fue
+            escogido especialmente para este restaurante japonés."</p>
+          </div>
+          <br>
+          <div>
+          <img class="imagnos" src="../imagenes/nakamas.jpg" alt="" height="80%" width="30%">
+          <img class="imagnos" src="../imagenes/nakamas2.jpg" alt="" height="150%" width="25%">
+        </div>
+        </div>
+      </div>
+      <br>
+      
 
       <div class="nuestro_contacto">
-        <h2 class="animate__animated animate__backInLeft">Nuestro contacto</h2>
-        <span>
-          <p class="mb-0">Whatsapp: </p>
-          <p class="contacto"> 351555555</p>
-        </span>
-        <span>
-          <p class="mb-0"> Email: </p>
-          <p class="contacto"> Nakamaramen@gmail.com</p>
-        </span>
+        <p class="subtitulo">Whatsapp: </p>
+        <p class="contacto"> 351555555</p>
+
+        <p class="subtitulo"> Email: </p>
+        <p class="contacto"> Nakamaramen@gmail.com</p>
+
       </div>
 
-      <img id="mural" src="/imagenes/mural.jpg" alt="" width="98%" height="40%">
 
-      <p id="pindex"> "Somos un restaurante especializado en ramen japones. Blablaba. Lorem, ipsum dolor sit amet
-        consectetur
-        adipisicing elit. Recusandae, tempore hic? Dolorum eveniet aliquid voluptate, possimus reiciendis
-        provident tenetur dignissimos vel. Alias aliquam magni quasi minus eius laborum corporis molliti."</p>
 
-      <br>
+
 
 
 
@@ -88,7 +145,7 @@
 
 
       <!--Inicio de Formulario-->
-      <h4>¡Dejanos tu opinion!</h4>
+      <h2 class="subtitulo">¡Dejanos tu opinion!</h2>
 
       <form action="" class="formulario">
         <fieldset>
@@ -110,35 +167,54 @@
         <textarea name="DejanosTuMensaje" id="DejanosTuMensaje" cols="100" rows="10"> </textarea>
 
         <div>
-          <button type="reset" class="btn btn-dark">Resetear formulario</button>
+          <button id="boton" type="reset" class="btn btn-dark">Resetear formulario</button>
         </div>
 
 
-        <button type="button" class="btn btn-dark">Enviar</button>
+        <button id="boton" type="button" class="btn btn-dark">Enviar</button>
 
       </form>
       </section>
-
-
-
-
-
-
 
     </div>
 
 
 
 
- 
- 
- 
- 
+    <!--Inicio de Pie de Pagina-->
+    <div class="piedepagina">
+
+      <div class="contactopie">
+        <p class="ppie">nakamaramen@gmail.com</p>
+        <p class="ppie">+54 9 351 6852613</p>
+        <p class="ppie">Duarte quiroz 399</p>
+      </div>
+
+
+      <div class="medio">
+        <p class="ppiedos">© 2021 Agustina Dolar.</p>
+      </div>
+
+
+      <div class="redespie">
+        <p class="ppie">Lunes a Sabados de 12 a 15 - 20 a 23.</p>
+        <img class="imaglogopie" src="/imagenes/logo face.png" alt="logofacebook" width="60px" height="60px" align>
+        <img class="imaglogopie" src="/imagenes/logo insta 2.png" alt="logoinstagram" width="60px" height="60px">
+      </div>
+
+
+
+
+    </div>
+    <!--Fin de Pie de Pagina-->
+
+
+
   </div>
   <!--Fin contenedor maximo:-->
 
-  
-  
+
+
 
   <!--Javascript-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

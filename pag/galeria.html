@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css.css">
+    <title>Nakama Ramen- Comida japonesa Cordoba</title>
+    <meta name="nakama ramen restaurante japones en cordoba"
+        content="Restaurante de ramen en el centro de Cordoba Capital con estetica oriental">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Quicksand&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -23,79 +26,145 @@
         <div class="header">
 
 
+
             <!--Inicio de Nav-->
             <nav>
-                <img id="logonakama" src="/imagenes/logo.jpg" alt="logo de nakama" width="150" height="150">
-    
-    
+                <img src="/imagenes/logo.jpg" alt="logo de nakama" width="150" height="150">
+
+
                 <ul>
-    
-    
-    
-    
+
+
+
+
                     <li> <a href="/pag/menu.html" class="animate__animated animate__fadeInTopRight"> Menu </a> </li>
-                    <li> <a href="/pag/galeria.html" class="animate__animated animate__fadeInTopRight"> Galeria </a> </li>
-                    <li> <a href="/pag/nosotros.html" class="animate__animated animate__fadeInTopRight"> Quienes Somos </a> </li>
+                    <li> <a href="/pag/galeria.html" class="animate__animated animate__fadeInTopRight"> Galeria </a>
+                    </li>
+                    <li> <a href="/pag/nosotros.html" class="animate__animated animate__fadeInTopRight"> Quienes Somos
+                        </a> </li>
                     <li> <a href="/index.html" class="animate__animated animate__fadeInTopRight"> Home </a> </li>
-    
-    
-    
-    
+
+
+
+
                 </ul>
-    
+
             </nav>
+
             <!--Fin de Nav-->
         </div>
         <!--FIN DE ENCABEZADO-->
 
+
         <!--MAIN-->
 
-       
+
         <div class="contenedorgaleria">
+
+            <h2 class="titulo">¡Conocenos! - ギャラリー</h2>
             <br>
-            <h2>¡Conocenos!</h2>
             <div class="contenedorfotos">
-                <div class="area1"><img class="imagengaleria" src="/imagenes/lugar1.jpg" alt="" width="100%" height="100%"></div>
-                <div class="area2"><img class="imagengaleria" src="/imagenes/lugar2.jpg" alt="" width="100%" height="100%"></div>
-                <div class="area3"><img class="imagengaleria" src="/imagenes/lugar3.jpg" alt="" width="100%" height="100%"></div>
-                <div class="area4"><img class="imagengaleria" src="/imagenes/lugar4.jpg" alt="" width="100%" height="100%"></div>
-                <div class="area5"><img class="imagengaleria" src="/imagenes/lugar5.jpg" alt="" width="100%" height="100%"></div>
-                <div class="area6"><img class="imagengaleria" src="/imagenes/lugar6.jpg" alt="" width="100%" height="100%"></div>
-                <div class="area7"><img class="imagengaleria" src="/imagenes/lugar7.jpg" alt="" width="100%" height="100%"></div>
-                <div class="area8"><img class="imagengaleria" src="/imagenes/lugar8.jpg" alt="" width="100%" height="100%"></div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                            aria-label="Slide 8"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="imagengaleria" src="../imagenes/lugar01.png" class="d-block w-100" alt="..." >
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagengaleria" src="../imagenes/lugar2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagengaleria" src="../imagenes/lugar3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagengaleria" src="../imagenes/lugar4.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagengaleria" src="../imagenes/lugar5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagengaleria" src="../imagenes/lugar6.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagengaleria" src="../imagenes/lugar7.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagengaleria" src="../imagenes/lugar8.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
 
             </div>
         </div>
 
 
 
-        <!--Fin de contenedor maximo-->
-    </div>
 
-<div class="container">
-        
-    <p class="ph1">Encontranos:</p>
 
-    <div id="iframe" style="align-items: center;"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8615392204633!2d-64.19306658530627!3d-31.417940703469935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a31db0401d21%3A0x89614cf7abf4c408!2sNakama%20Ramen%20Corner!5e0!3m2!1ses-419!2sar!4v1624831782090!5m2!1ses-419!2sar" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe> </div>
-</div>
+        <div class="container">
 
-    <!--Inicio de Pie de Pagina-->
-    <div class="piedepaginamenu">
 
-        <div class="contactopie">
-            <p class="h4">nakamaramen@gmail.com</p>
-            <p class="h4">+54 9 351 6852613</p>
-            <p class="h4">Duarte quiroz 399</p>
+            
+            <img src="/imagenes/logo wpp.png" alt="logowpp" id="whatsap" class="animate__animated animate__lightSpeedInRight">
+
+            <p class="ph1" class="animate__animated animate__tada">¡Encontranos! - 
+                位置</p>
+            <br>
+            <div id="iframe" style="align-items: center;"> <iframe id="iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8615392204633!2d-64.19306658530627!3d-31.417940703469935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a31db0401d21%3A0x89614cf7abf4c408!2sNakama%20Ramen%20Corner!5e0!3m2!1ses-419!2sar!4v1624831782090!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
         </div>
 
 
-        <div>
-            <p class="h5">© 2021 Agustina Dolar.</p>
+        <!--Fin de contenedor maximo-->
+    </div>
+    <!--Inicio de Pie de Pagina-->
+    <div class="piedepagina">
+
+        <div class="contactopie">
+            <p class="ppie">nakamaramen@gmail.com</p>
+            <p class="ppie">+54 9 351 6852613</p>
+            <p class="ppie">Duarte quiroz 399</p>
+        </div>
+
+
+        <div class="medio">
+
+            <p class="ppiedos">© 2021 Agustina Dolar.</p>
         </div>
 
 
         <div class="redespie">
-            <p class="h4">Lunes a Sabados de 12 a 15 - 20 a 23.</p>
+            <p class="ppie">Lunes a Sabados de 12 a 15 - 20 a 23.</p>
             <img class="imaglogopie" src="/imagenes/logo face.png" alt="logofacebook" width="60px" height="60px">
             <img class="imaglogopie" src="/imagenes/logo insta 2.png" alt="logoinstagram" width="60px" height="60px">
         </div>
